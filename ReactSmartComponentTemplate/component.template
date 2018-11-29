@@ -1,0 +1,38 @@
+/* Packages */
+import React, { Component } from 'react';
+import propTypes from 'prop-types';
+
+/* Component it self */
+class <%= Name %> extends Component {
+    /**
+     * Constructor
+     *
+     * @param {object} props - React Component inherit props
+     */
+    constructor(props) {
+        super(props);
+
+        this.props = props;
+        this.state = {
+            //
+        };
+    }
+
+    /* Render */
+    render() {
+
+    }
+};
+
+/* Default Props */
+<%= Name %>.defaultProps = {
+
+};
+
+/* Props Types */
+<%= Name %>.propTypes = {
+
+};
+
+/* Exporting */
+export default <%= Name %>;

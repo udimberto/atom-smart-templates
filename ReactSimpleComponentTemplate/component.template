@@ -1,0 +1,25 @@
+/* Packages */
+import React from 'react';
+import propTypes from 'prop-types';
+
+/* Component */
+const <%= Name %> = (props) => {
+    // const { exampleProp } = props;
+
+    return (
+        // YOUR CODE GOES HERE
+    );
+};
+
+/* Default Props */
+<%= Name %>.defaultProps = {
+
+};
+
+/* Props Types */
+<%= Name %>.propTypes = {
+
+};
+
+/* Exporting */
+export default <%= Name %>;

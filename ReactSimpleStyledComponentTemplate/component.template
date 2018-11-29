@@ -1,0 +1,35 @@
+/* Packages */
+import React from 'react';
+import propTypes from 'prop-types';
+import styled from 'react-emotion';
+
+/* Wrapper Styles */
+const <%= Name %>Wrapper = styled('<%= Type || "div" %>')(props => ({
+    boxSizing: 'border-box',
+
+    ...props.styles,
+}));
+
+/* Component */
+const <%= Name %> = (props) => {
+    // const { exampleProp } = props;
+
+    return (
+        <<%= Name %>Wrapper {...props}>
+            // YOUR CODE GOES HERE
+        </<%= Name %>Wrapper>
+    );
+};
+
+/* Default Props */
+<%= Name %>.defaultProps = {
+
+};
+
+/* Props Types */
+<%= Name %>.propTypes = {
+
+};
+
+/* Exporting */
+export default <%= Name %>;
